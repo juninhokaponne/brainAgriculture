@@ -36,6 +36,11 @@ npm run dev
 npm run prisma
 ```
 
+6 - Rodar o conteiner ( -D ou Detached mode: Roda um container em background )
+```
+docker-compose up -d
+```
+
 ## Produção
 
 A API atualmente está rodando em produção através do serviço do Heroku com suporte ao banco de dados postgres de produção.
