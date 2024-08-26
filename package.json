@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/main.ts",
     "test": "jest",
-    "prisma": "ts-node-dev prisma/seed.ts"
+    "prisma": "ts-node-dev prisma/seed.ts",
+    "build": "npx tsc",
+    "start": "node dist/main.js"
   },
   "keywords": [],
   "author": "",
