@@ -151,26 +151,6 @@ describe("ProducerService", () => {
         "Farmer not found or does not exist"
       );
     });
-
-    /* it("should update a producer successfully", async () => {
-      const producer = new Producer(
-        "12345678900",
-        "Gilson Oliveira",
-        "Colheita Feliz",
-        "Porto Alegre",
-        "RS",
-        100,
-        50,
-        50
-      );
-      const updatedProducer = { ...producer, name: "Updated Producer" };
-      producerRepo.getById = jest.fn().mockResolvedValue(producer);
-      producerRepo.update = jest.fn().mockResolvedValue(updatedProducer);
-
-      await expect(
-        service.updateProducer("some-id", updatedProducer)
-      ).resolves.toEqual(updatedProducer);
-    }); */
   });
 
   describe("getProducerById", () => {
